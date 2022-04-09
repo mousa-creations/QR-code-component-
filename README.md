@@ -36,8 +36,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Continued development
 
 
-First I made a container for all the elements, then I put a QR code image and then I added the texts,
-Then I started adding the style to all the elements, I used Flexbox and then adjusted the elements to responsive to all the screens
+I had an idea to create a new component called QR code. A QR code is an image that can be scanned with a device, such as a smartphone, to get more information (usually a web address) about the product. Basically, it's just a picture of a barcode.
+
+I started off by making this engine in HTML and CSS which allows me to design the layout of my QR code for the main section (background and foreground). The main section of the QR code is essential because that's where I put my desired URL - the link I want people to be sent to if they scan my QR code.
+
+To design the background area of my layout I use Flexbox or div blocks placed on top of each other. This gives me a chance to work with different layers and levels in order to set up different parts of my page design. For example, in Box A I have two boxes in Box B I have a Qr code for the scan.
 
 
 ### Useful resources
